@@ -76,4 +76,4 @@ b.traverse(tree, Proc.new { |node|
   end
 })
 
-puts "longest left or right path: #{b.max}"
+puts "longest left or right path: #{b.max + 1}"
